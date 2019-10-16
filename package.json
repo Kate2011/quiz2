@@ -1,0 +1,8 @@
+{
+	"name": "quiz",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "http-server -c -p 8081"
+	}
+	}
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<title>Викторина</title>
+</head>
+<body>
+	<template id="optionAnswerTemplate">
+		<div class="ansverTitle" 
+<span></span>>
+	</div>
+	</template>
+
+<template id="questionTemplate">
+	<div class="guestion">
+		<h3 data-title class="questionTitle"></h3>
+		<img data-img src="" alt="" class="questionImg">
+		<div class="answerOption"></div>
+	</div>
+</template>
+<div class="mainContainer">
+	<h1>Все ок!</h1>
+	<div>
+		<h1 id="pageTitle"></h1>
+		<p id="pageDescription"></p>
+	</div>
+	<div id="questionList"></div>
+</div>
+<div id="quizResult" style="display: none"></div>
+</body>
+<script type="text/javascript" scr="scripts/utils.js"></script>
+<script type="text/javascript" scr="scripts/answerView.js"></script>
+<script type="text/javascript" scr="scripts/questionView.js"></script>
+<script type="text/javascript" scr="scripts/questionView.js"></script>
+<script type="text/javascript" scr="scripts/quizView.js"></script>
+<script type="text/javascript" scr="scripts/application.js"></script>
+<script type="text/javascript" scr="scripts/index.js"></script>
+</html>
